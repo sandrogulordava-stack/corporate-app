@@ -1,20 +1,22 @@
-<!-- index.html -->
+
 <!DOCTYPE html>
 <html lang="ka">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Corporate Header</title>
+  <title>კორპორატიული ვებსაიტი | ApexCorp</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <!-- Header Section -->
   <header class="header">
     <nav class="navbar">
+
       <!-- Logo -->
       <a href="#" class="logo">
         <div class="logo-icon">
-          <svg viewBox="0 0 24 24">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg>
         </div>
@@ -37,15 +39,66 @@
       </div>
 
       <!-- Mobile Menu Button -->
-      <button class="mobile-toggle" aria-label="Toggle Navigation">
-        <svg viewBox="0 0 24 24">
+      <button
+        class="mobile-toggle"
+        type="button"
+        aria-label="ნავიგაციის მენიუს გახსნა"
+        aria-expanded="false"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
           <line x1="3" y1="12" x2="21" y2="12"></line>
           <line x1="3" y1="6" x2="21" y2="6"></line>
           <line x1="3" y1="18" x2="21" y2="18"></line>
         </svg>
       </button>
+
     </nav>
   </header>
+
+  <!-- Main Content -->
+  <main class="hero-wrapper">
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-container">
+
+        <h1 class="hero-title">
+          ინოვაციური ბიზნეს გადაწყვეტილებები
+        </h1>
+
+        <p class="hero-subtitle">
+          შექმენი და განავითარე შენი პროექტი თანამედროვე სტანდარტებით.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#get-started" class="btn btn-primary">
+            დაიწყე ახლავე
+          </a>
+
+          <a href="#solutions" class="btn btn-ghost">
+            გაიგე მეტი
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Banner Section -->
+    <section class="banner-section">
+      <div class="banner-container">
+        <div class="banner-content">
+
+          <h3>სპეციალური შეთავაზება ახალი პარტნიორებისთვის</h3>
+
+          <p>
+            მიიღე პროფესიონალური კონსულტაცია სრულიად უფასოდ.
+          </p>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
 
 </body>
 </html>
