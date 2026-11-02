@@ -1,76 +1,104 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ka">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>კორპორატიული ვებსაიტი | ApexCorp</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="contact-section" id="contact">
-        <div class="contact-container">
-            <h2>დაგვიკავშირდი</h2>
-            <p class="contact-description">გაგვიზიარე შენი იდეა ან შეკითხვა.</p>
-    
-            <form class="contact-form">
-                <div class="contact-row">
-                    <div class="contact-field">
-                        <label for="contact-name">სახელი</label>
-                        <input type="text" id="contact-name" name="name" autocomplete="name" placeholder="შენი სახელი"
-                            required>
-                    </div>
-    
-                    <div class="contact-field">
-                        <label for="contact-email">ელფოსტა</label>
-                        <input type="email" id="contact-email" name="email" autocomplete="email"
-                            placeholder="name@example.com" required>
-                    </div>
-                </div>
-    
-                <div class="contact-field">
-                    <label for="contact-message">შეტყობინება</label>
-                    <textarea id="contact-message" name="message" rows="5" placeholder="რით შეგვიძლია დაგეხმაროთ?"
-                        required></textarea>
-                </div>
-    
-                <button type="button" class="contact-submit" disabled>
-                    გაგზავნა — მალე
-                </button>
-                <p class="contact-note">ფორმა სადემონსტრაციოა.</p>
-            </form>
+
+  <!-- Header Section -->
+  <header class="header">
+    <nav class="navbar">
+
+      <!-- Logo -->
+      <a href="#" class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
         </div>
+        <span>ApexCorp</span>
+      </a>
+
+      <!-- Navigation Links -->
+      <ul class="nav-menu">
+        <li><a href="#services" class="nav-link">სერვისები</a></li>
+        <li><a href="#about" class="nav-link">ჩვენ შესახებ</a></li>
+        <li><a href="#solutions" class="nav-link">გადაწყვეტილებები</a></li>
+        <li><a href="#pricing" class="nav-link">ფასები</a></li>
+        <li><a href="#contact" class="nav-link">კონტაქტი</a></li>
+      </ul>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <a href="#login" class="btn btn-ghost">შესვლა</a>
+        <a href="#get-started" class="btn btn-primary">დაწყება</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button
+        class="mobile-toggle"
+        type="button"
+        aria-label="ნავიგაციის მენიუს გახსნა"
+        aria-expanded="false"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="hero-wrapper">
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-container">
+
+        <h1 class="hero-title">
+          ინოვაციური ბიზნეს გადაწყვეტილებები
+        </h1>
+
+        <p class="hero-subtitle">
+          შექმენი და განავითარე შენი პროექტი თანამედროვე სტანდარტებით.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#get-started" class="btn btn-primary">
+            დაიწყე ახლავე
+          </a>
+
+          <a href="#solutions" class="btn btn-ghost">
+            გაიგე მეტი
+          </a>
+        </div>
+
+      </div>
     </section>
-    
-    <footer class="site-footer">
-        <div class="footer-container">
-            <div class="footer-info">
-                <a href="#" class="footer-brand">ApexCorp</a>
-                <p>თანამედროვე გადაწყვეტილებები შენი ბიზნესისთვის.</p>
-            </div>
-    
-            <nav aria-label="ფუტერის ნავიგაცია">
-                <h2 class="footer-heading">ნავიგაცია</h2>
-                <ul class="footer-links">
-                    <li><a href="#services">სერვისები</a></li>
-                    <li><a href="#about">ჩვენ შესახებ</a></li>
-                    <li><a href="#contact">კონტაქტი</a></li>
-                </ul>
-            </nav>
-    
-            <div>
-                <h2 class="footer-heading">კონტაქტი</h2>
-                <address class="footer-address">
-                    <a href="mailto:info@apexcorp.ge">info@apexcorp.ge</a>
-                    <a href="tel:+995555123456">+995 555 12 34 56</a>
-                    <span>თბილისი, საქართველო</span>
-                </address>
-            </div>
+
+    <!-- Banner Section -->
+    <section class="banner-section">
+      <div class="banner-container">
+        <div class="banner-content">
+
+          <h3>სპეციალური შეთავაზება ახალი პარტნიორებისთვის</h3>
+
+          <p>
+            მიიღე პროფესიონალური კონსულტაცია სრულიად უფასოდ.
+          </p>
+
         </div>
-    
-        <div class="footer-bottom">
-            <p>© 2026 ApexCorp. ყველა უფლება დაცულია.</p>
-            <a href="#">დაბრუნება ზემოთ ↑</a>
-        </div>
-    </footer>
+      </div>
+    </section>
+
+  </main>
+
 </body>
 </html>
