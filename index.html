@@ -1,11 +1,51 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ka">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corporate Header</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+  <header class="header">
+    <nav class="navbar">
+      <!-- Logo -->
+      <a href="#" class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+        </div>
+        <span>ApexCorp</span>
+      </a>
+
+      <!-- Navigation Links -->
+      <ul class="nav-menu">
+        <li><a href="#services" class="nav-link">სერვისები</a></li>
+        <li><a href="#about" class="nav-link">ჩვენ შესახებ</a></li>
+        <li><a href="#solutions" class="nav-link">გადაწყვეტილებები</a></li>
+        <li><a href="#pricing" class="nav-link">ფასები</a></li>
+        <li><a href="#contact" class="nav-link">კონტაქტი</a></li>
+      </ul>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <a href="#login" class="btn btn-ghost">შესვლა</a>
+        <a href="#get-started" class="btn btn-primary">დაწყება</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button class="mobile-toggle" aria-label="Toggle Navigation">
+        <svg viewBox="0 0 24 24">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </nav>
+  </header>
+
 </body>
 </html>
